@@ -9,7 +9,7 @@
    <url>http://maven.apache.org</url>
 
    <properties>
-      <kibana.version></kibana.version>
+      <kibana.version>3.0.0milestone4</kibana.version>
    </properties>
 
    <dependencies>
@@ -36,7 +36,7 @@
                      <goal>wget</goal>
                   </goals>
                   <configuration>
-                     <url>http://download.elasticsearch.org/kibana/kibana/kibana-3.0.0milestone4.zip</url>
+                     <url>http://download.elasticsearch.org/kibana/kibana/kibana-${kibana.version}.zip</url>
                      <unpack>true</unpack>
                      <outputDirectory>${project.build.directory}/${project.build.finalName}</outputDirectory>
                   </configuration>
