@@ -6,20 +6,11 @@
    <packaging>war</packaging>
    <version>1.0-SNAPSHOT</version>
    <name>kibana-jetty Maven Webapp</name>
-   <url>http://maven.apache.org</url>
+   <url>https://github.com/dabdine/kibana-jetty</url>
 
    <properties>
       <kibana.version>3.0.0milestone4</kibana.version>
    </properties>
-
-   <dependencies>
-      <dependency>
-         <groupId>junit</groupId>
-         <artifactId>junit</artifactId>
-         <version>3.8.1</version>
-         <scope>test</scope>
-      </dependency>
-   </dependencies>
 
    <build>
       <finalName>kibana</finalName>
