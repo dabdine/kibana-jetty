@@ -1,7 +1,7 @@
 kibana-jetty
 ============
 
-A simple pom file that will download and unpack Kibana, then wrap it in a war.
+A simple pom file that will download and unpack Kibana, then wrap it in a war and deploy it to jetty with the maven cargo plugin.
 
 Run:
 
