@@ -11,6 +11,11 @@ Run:
  
 Then access the kibana console from [http://localhost:8080/kibana-jetty/kibana-3.0.0milestone4](http://localhost:8080/kibana-jetty/kibana-3.0.0milestone4)
 
+Build prerequisites
+=============
+1. JDK (6+ preferred, though I see no reason why this wouldn't work with v5)
+2. Maven 2+
+
 License
 =======
 
