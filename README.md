@@ -1,7 +1,7 @@
 kibana-jetty
 ============
 
-[Kibana](http://www.elasticsearch.org/overview/kibana/) is a web-based search and filtering UI that sits on top of elasticsearch. This project contains a simple pom file that will download and unpack Kibana, then wrap it in a war and deploy it to jetty with the maven cargo plugin.
+[Kibana](http://www.elasticsearch.org/overview/kibana/) is a web-based search and filtering UI that sits on top of [Elasticsearch](http://www.elasticsearch.org/). This project contains a simple pom file that will download and unpack Kibana, then wrap it in a war and deploy it to jetty with the maven cargo plugin.
 
 Disclaimer: I am not affiliated with elasticsearch in any way. I did this on my own accord to quickly get a server online without having to download / configure other tools or make a mess about my machine. *This* code is MIT-licensed though Kibana has its own license. See the Kibana license from Elasticsearch for more details.
 
