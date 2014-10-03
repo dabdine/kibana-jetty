@@ -9,7 +9,7 @@
    <url>https://github.com/dabdine/kibana-jetty</url>
 
    <properties>
-      <kibana.version>3.0.0milestone4</kibana.version>
+      <kibana.version>3.1.1</kibana.version>
    </properties>
 
    <build>
