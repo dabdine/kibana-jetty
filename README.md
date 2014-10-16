@@ -5,11 +5,19 @@ kibana-jetty
 
 Disclaimer: I am not affiliated with elasticsearch in any way. I did this on my own accord to quickly get a server online without having to download / configure other tools or make a mess about my machine. *This* code is MIT-licensed though Kibana has its own license. See the Kibana license from Elasticsearch for more details.
 
-Run:
+For simple execution (defaults to es @ window.location & kibana version defined in pom.xml):
 
     mvn clean package cargo:run
- 
-Then access the kibana console from [http://localhost:8080/kibana-jetty/kibana-3.0.0milestone4](http://localhost:8080/kibana-jetty/kibana-3.0.0milestone4)
+
+To specify a specific Kibana location:
+
+    mvn clean package cargo:run -Delasticsearch.location=http://xxx:port 
+
+To specify a different Kibana version (for example, 3.1.0):
+
+    mvn clean package cargo:run -Dkibana.version=3.1.0
+
+Then access the kibana console from [http://localhost:8080/kibana](http://localhost:8080/kibana)
 
 Build prerequisites
 =============
